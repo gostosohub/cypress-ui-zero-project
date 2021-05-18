@@ -1,0 +1,14 @@
+{
+  "name": "cypress-zero-project",
+  "version": "1.0.0",
+  "description": "cypress-zero-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.7.1"
+  }
+}

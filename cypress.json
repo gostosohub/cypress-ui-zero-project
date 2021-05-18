@@ -1,0 +1,5 @@
+{
+    "baseURL": "https://reqres.in",
+    "testFiles": "tests/**/*.*",
+    "integrationFolder": "cypress"
+}
