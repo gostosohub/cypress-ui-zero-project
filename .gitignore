@@ -1,1 +1,10 @@
+# IDE specific
 /.idea/
+/.metadata/
+
+# Cypress
+cypress/videos
+cypress/screenshots
+
+# Dependencies
+node_modules

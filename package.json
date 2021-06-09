@@ -1,14 +1,26 @@
 {
-  "name": "cypress-zero-project",
+  "name": "cypress-ui-zero-project",
   "version": "1.0.0",
-  "description": "cypress-zero-project",
+  "description": "cypress-ui-zero-project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "cypress:run": "cypress run --spec \"**/**/*.feature\"",
+    "cyreport": "node ./cypress/support/report.js",
+    "clean:reports": "rm -rf testOutput/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.7.1"
+    "cypress": "^6.7.1",
+    "cypress-cucumber-preprocessor": "^4.1.2",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }
