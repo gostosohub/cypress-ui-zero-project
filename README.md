@@ -16,3 +16,4 @@ This project is all about learning UI testing using cypress.
 ## Intsall Multiple Cucumber HTML Reporter
    1. `npm i --D multiple-cucumber-html-reporter`
    2. Test report will created under testOutput/
+   <img width="1527" alt="Screenshot 2021-07-26 at 23 08 30" src="https://user-images.githubusercontent.com/69424682/127065568-1fc4b968-c9a6-4697-bcd8-cce378312155.png">
